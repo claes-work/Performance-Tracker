@@ -1,7 +1,22 @@
 body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background-color: #2C394B;
+}
+
+* {
+  box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
-    Arial, sans-serif;
-  margin: auto;
-  max-width: 38rem;
-  padding: 2rem;
+  Arial, sans-serif;
+}
+
+.title-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 40px;
+  -webkit-app-region: drag;
 }
